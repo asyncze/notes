@@ -1,4 +1,12 @@
-Headers with <mark>recently changed</mark> indicate sections that have been updated recently.
+
+[Back to michaelsjoberg.com](https://michaelsjoberg.com)
+
+# Notes
+
+## Computational sciences
+
+- [Ogilvie's Astrophysical Fluid Dynamics lecture notes](https://arxiv.org/pdf/1604.03835)
+- [Hands-on Introduction to HPC (ARCHER2)](https://www.archer2.ac.uk/training/courses/240000-intro-hpc-self-service/)
 
 ## High-level observations (AI/ML landscape)
 
@@ -110,7 +118,7 @@ define i32 @main() #0 {
 
 Interpret LLVM IR and output result `lli main.ll; echo $?` (output should be `20`). Compile to LLVM bytecode, interpret, and output result `llvm-as main.ll; lli main.bc; echo $?`. Generate object file and execute `llc -filetype=obj main.bc; clang++ main.o -o main; ./main; echo $?`.
 
-## <mark>recently changed</mark> LLVM "backend"
+## The LLVM backend
 
 ![llvm_backend.png](llvm_backend.png)
 
@@ -272,7 +280,7 @@ print(abstract_analysis(factorial))
 
 ### Kolmogorov complexity
 
-The [Kolmogorov complexity](https://en.wikipedia.org/wiki/Kolmogorov_complexity) of a output is length of shortest program that can produce the output
+The [Kolmogorov complexity](https://en.wikipedia.org/wiki/Kolmogorov_complexity) of computational output is the length of shortest program that can produce that output.
 
 - `abababababababababababababababab` can be produced by `print("ab" * 16)`
 - `4c1j5b2p0cv4w1x8rx2y39umgw5q85s7` can be produced by `print("".join(random.choices(string.ascii_lowercase + string.digits, k=32)))` or `print("4c1j5b2p0cv4w1x8rx2y39umgw5q85s7")`
