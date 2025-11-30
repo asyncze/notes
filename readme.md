@@ -7,6 +7,7 @@
 
 - [Ogilvie's Astrophysical Fluid Dynamics lecture notes](https://arxiv.org/pdf/1604.03835)
 - [Hands-on Introduction to HPC (ARCHER2)](https://www.archer2.ac.uk/training/courses/240000-intro-hpc-self-service/)
+- [AST 390: Computational Astrophysics](https://zingale.github.io/computational_astrophysics/intro.html)
 
 - **[Multi-silicon AI compute (Hazy Research)](https://hazyresearch.stanford.edu/blog/2025-11-09-amd-brr)**
 
